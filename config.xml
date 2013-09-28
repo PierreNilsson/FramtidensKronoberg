@@ -32,6 +32,6 @@
 	<preference name="prerendered-icon" value="true" />
 	<preference name="stay-in-webview" value="false" />
 	<preference name="show-splash-screen-spinner" value="false" />
-	
+	<plugin name="InAppBrowser" value="CDVInAppBrowser" />
 	
 </widget>
