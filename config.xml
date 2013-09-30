@@ -13,15 +13,17 @@
         Pierre Nilsson, Karl Längberg, Peeking Peakcock, Apache Cordova Team
     </author>
 	
+	
+	
 	<icon src="icon.png" />
-	<icon src="icons/ios/icon.png" gap:platform="ios" width="57" height="57" />
-<icon src="icons/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
-<icon src="icons/ios/icon_at_2x.png" gap:platform="ios" width="114" height="114" />
+	<icon src="icon.png" gap:platform="ios" width="57" height="57" />
+<icon src="icon-72.png" gap:platform="ios" width="72" height="72" />
+<icon src="icon_at_2x.png" gap:platform="ios" width="114" height="114" />
   	
 	
-<gap:splash src="splash/ios/Default.png" gap:platform="ios" width="320" height="480" />
-<gap:splash src="splash/ios/Default_at_2x.png" gap:platform="ios" width="640" height="960" />
-<gap:splash src="splash/ios/Default_iphone5.png" gap:platform="ios" width="640" height="1136" />
+<gap:splash src="Default.png" gap:platform="ios" width="320" height="480" />
+<gap:splash src="Default_at_2x.png" gap:platform="ios" width="640" height="960" />
+<gap:splash src="Default_iphone5.png" gap:platform="ios" width="640" height="1136" />
 
     <feature name="http://api.phonegap.com/1.0/device" />
 
@@ -35,5 +37,7 @@
 	
 	<preference name="show-splash-screen-spinner" value="false" />
 	<plugin name="InAppBrowser" value="CDVInAppBrowser" />
+	
+	<access origin="*" />
 	
 </widget>
