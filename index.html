@@ -26,6 +26,14 @@
 
 <style>
 
+ /*** patch for jquerymobile page flicker that was happening ***/
+     .ui-page {
+
+                  height: 100% !important; 
+                  -webkit-backface-visibility: hidden;
+               }
+        .input { outline: none; }
+
 .block2 {
 	
 	margin:5%;
