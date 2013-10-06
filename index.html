@@ -13,6 +13,12 @@
 
 <script type="text/javascript" src="cordova.js"></script>
 
+<script>
+$(document).bind("mobileinit", function() {
+    $.mobile.defaultPageTransition = "none";
+    $.mobile.defaultDialogTransition = "none";
+});
+</script>
 
 <link rel="stylesheet" href="themes/Final.min.css" />
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
@@ -26,13 +32,7 @@
 
 <style>
 
- /*** patch for jquerymobile page flicker that was happening ***/
-     .ui-page {
-
-                  height: 100% !important; 
-                  -webkit-backface-visibility: hidden;
-               }
-        .input { outline: none; }
+ 
 
 .block2 {
 	
